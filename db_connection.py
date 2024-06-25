@@ -9,7 +9,7 @@ class DatabaseConnection:
             # Intenta establecer la conexión con los parámetros proporcionados
             self.connection = mysql.connector.connect(
                 host='localhost',
-                database='hospital_bdd',
+                database='hospital_db',
                 user='root',
                 password=''
             )
